@@ -222,6 +222,8 @@ hr{
 /* -----------Media Quarey style ----------  */
 
 @media only screen and (max-width: 1100px) { 
+       .Banner{ width: 500px;
+       }
 
     .part1 h1{
         font-weight: 700;
@@ -242,29 +244,29 @@ hr{
         }
         .view{
             visibility: visible;
-            margin-left: 430px;
+            
         }
         .match-detail{
              grid-template-columns: repeat(2,1fr);
             column-gap: 60px;
         }
-
+        
         }
     
 
 
 
-@media only screen and (max-width: 820px) { 
+/* @media only screen and (max-width: 820px) { 
     .part1 h1{
         font-weight: 480px;
         font-size: 30px;}
 
     
     .Banner{ 
-        width: 500px;
+        
 
     }
-}
+} */
 
 
 @media only screen and (max-width: 500px) { 
@@ -273,11 +275,11 @@ hr{
         height: 700px;
         flex-direction: column;
     }
-    .part1 img{
+    .part1 img{ 
         padding-left: 100px;
     }
     .part1 p h1{
-        font-size: 400;
+        font-size: 600;
       
     }
     .part img{
@@ -290,9 +292,10 @@ hr{
     .part2{
         flex-direction: column;
     }
-    .view{
-    visibility: hidden;}
-    footer ul{
+        .view{
+        visibility: hidden;
+    }
+        footer ul{
         justify-content: center;
         flex-direction: column;
     }
