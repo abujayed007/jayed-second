@@ -240,7 +240,7 @@ hr{
         }
         .info-box{ 
             grid-template-columns: repeat(2,1fr);
-            column-gap: 60px;
+            column-gap: 10px;
         }
         .view{
             visibility: visible;
