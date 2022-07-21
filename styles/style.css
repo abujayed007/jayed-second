@@ -24,9 +24,7 @@ main{
     padding-left: 100px;
 
 }
-.messi img{width:750px;
 
-}
 .announcement {
     padding-left: 300px;
     padding-top: 100px;
@@ -50,6 +48,7 @@ font-style: normal;
 }
 .part1 image{ 
     margin-top: 50px;
+    /* padding-left: 100px; */
     
 }
 .part1 button{
@@ -271,12 +270,12 @@ hr{
         height: 700px;
         flex-direction: column;
     }
-    .part1 h1{
-        font-size: small;
-       
+    .part1 p h1{
+        font-size: 400;
+      
     }
 .part img{
-    height: 200px;
+    height: 120px;
     width: 100px ;
 }
 .info-box{ 
